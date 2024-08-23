@@ -2,5 +2,5 @@
 
 public interface IReadRepository<T> : IRepository<T> where T : class
 {
-    IQueryable<T> GetAll(bool isTracking = false, params string[] includes);
+    T GetById(int id);
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shabnamjs\\source\\repos\\LabProniaTask\\LabProniaTask.MVC\\LabProniaTask.MVC.csproj": {}
+    "C:\\Users\\shabnamjs\\Desktop\\ProniaProject\\LabProniaTask\\LabProniaTask.MVC\\LabProniaTask.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shabnamjs\\source\\repos\\LabProniaTask\\LabProniaTask.MVC\\LabProniaTask.MVC.csproj": {
+    "C:\\Users\\shabnamjs\\Desktop\\ProniaProject\\LabProniaTask\\LabProniaTask.MVC\\LabProniaTask.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shabnamjs\\source\\repos\\LabProniaTask\\LabProniaTask.MVC\\LabProniaTask.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\shabnamjs\\Desktop\\ProniaProject\\LabProniaTask\\LabProniaTask.MVC\\LabProniaTask.MVC.csproj",
         "projectName": "LabProniaTask.MVC",
-        "projectPath": "C:\\Users\\shabnamjs\\source\\repos\\LabProniaTask\\LabProniaTask.MVC\\LabProniaTask.MVC.csproj",
+        "projectPath": "C:\\Users\\shabnamjs\\Desktop\\ProniaProject\\LabProniaTask\\LabProniaTask.MVC\\LabProniaTask.MVC.csproj",
         "packagesPath": "C:\\Users\\shabnamjs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shabnamjs\\source\\repos\\LabProniaTask\\LabProniaTask.MVC\\obj\\",
+        "outputPath": "C:\\Users\\shabnamjs\\Desktop\\ProniaProject\\LabProniaTask\\LabProniaTask.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -27,7 +27,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\shabnamjs\\source\\repos\\GenericAdo\\AdoGenericServices\\bin\\Debug": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -91,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

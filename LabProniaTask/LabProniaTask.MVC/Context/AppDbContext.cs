@@ -10,5 +10,6 @@ public class AppDbContext : DbContext
     {
     }
     public DbSet<SliderItem> Items { get; set; }
+    public DbSet<Product> Products { get; set; }
 
 }
