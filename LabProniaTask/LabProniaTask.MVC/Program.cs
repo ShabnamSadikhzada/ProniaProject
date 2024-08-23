@@ -1,4 +1,7 @@
 using LabProniaTask.MVC.Context;
+using LabProniaTask.MVC.Models;
+using LabProniaTask.MVC.Repository.Abstracts;
+using LabProniaTask.MVC.Repository.Concrets;
 using Microsoft.EntityFrameworkCore;
 
 namespace LabProniaTask.MVC;
@@ -17,6 +20,9 @@ public class Program
         {
             options.UseSqlServer(connectionString);
         });
+
+        builder.Services.AddScoped<IWriteRepository<Product>, WriteRepository<Product>>();
+        builder.Services.AddScoped<IReadRepository<Product>, ReadRepository<Product>>();
 
         var app = builder.Build();
 

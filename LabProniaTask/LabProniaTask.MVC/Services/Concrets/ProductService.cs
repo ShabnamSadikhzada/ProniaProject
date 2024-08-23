@@ -21,29 +21,22 @@ public class ProductService : IProductService
 
     public void CreateProduct(Product product)
     {
-        _context.Products.Add(product);
+        _writeRepository.Create(product);
     }
 
     public void DeleteProduct(Product product)
     {
-        _context.Products.Remove(product);
+        _writeRepository.Delete(product);
     }
 
 
     public Product GetProductById(int id)
     {
-        Product? entity = _context.Products.Find(id);
-        if (entity == null)
-        {
-
-            throw new Exception($"Entity not found with this id {id}");
-        }
-
-        return entity;
+        return _readRepository.GetById(id);
     }
 
     public void UpdateProduct(Product product)
     {
-        _context.Products.Update(product);
+        _writeRepository.Update(product);
     }
 }
